@@ -1,0 +1,23 @@
+#boxContainer{
+	margin:0 auto;
+	width:200px;
+	height:100px;
+	border-radius: 8px;
+	background:#5ac4ed;
+	position:relative;
+}
+
+#boxContainer:before{
+	content:"";
+	position:absolute;
+	top:20px;
+	left:-20px;
+	width:0px;
+	height:0px;
+	
+	
+	border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent; 
+  
+  border-right:20px solid #5ac4ed; 
+}
